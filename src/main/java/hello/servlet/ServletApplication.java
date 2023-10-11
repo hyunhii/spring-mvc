@@ -17,4 +17,9 @@ public class ServletApplication {
 	ViewResolver internalResourveViewResolver() {
 		return new InternalResourceViewResolver("/WEB/INF/views/", "jsp");
 	}*/
+
+	/*@Bean
+	SpringMemberFormControllerV1 springMemberFormControllerV1() {
+		return new SpringMemberFormControllerV1();
+	}*/
 }
